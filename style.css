@@ -1,0 +1,106 @@
+html{
+	background-color: #CCCCCC;
+}
+
+body{
+	background: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	padding: 20px;
+	max-width: 1000px;
+	margin: 0 auto;
+	font-size: 15px;
+}
+
+img{
+	width: 90%;
+	border: 1px solid #000000;
+	padding: 10px;
+}
+
+h1 {
+	font-family: 'Clicker Script', cursive;
+}
+
+h2{
+	background-color: #000000;
+	font-size: 1em;
+	color: #FFFFFF;
+	padding: 5px 10px;
+}
+
+h3{
+	font-size: 16px;
+	
+	border-bottom: 1px dashed #cccccc;
+
+}
+
+header{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+header h1{
+	font-size: 3em;
+	margin: 0;
+}
+
+header h2{
+	margin-top: 0;
+}
+
+ul li{
+	margin-bottom: 10px;
+}
+
+
+header p{
+	margin: 0;
+}
+
+a:link{
+	color: #cccccc;
+}
+
+a:hover{
+	color: red;
+}
+
+.location{
+	float: left;
+	width: 50%;
+	font-size: 12px;
+}
+
+.date{
+	float: right;
+	width: 50%;
+	text-align: right;
+	font-size: 12px;
+}
+
+.education{
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	margin-top: 50px;
+}
+
+.education span{
+	font-weight: bold;
+	display: block;
+	color: #666666;
+}
+
+.education ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+footer{
+	text-align: center;
+	margin-top: 100px;
+}

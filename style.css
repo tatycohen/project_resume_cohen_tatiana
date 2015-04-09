@@ -1,5 +1,6 @@
 html{
 	background-color: #CCCCCC;
+	background: url(img/bg.jpg);
 }
 
 body{
@@ -110,9 +111,31 @@ a:hover{
 	padding-left: 0;
 }
 
+.testimonials{
+	margin-top: 50px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  clear: right;
+}
+
+.author{
+	width: 60%;
+	font-style: italic;
+	text-align: right;
+	float: right;
+	margin-right: 20px;
+}
+
 footer{
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 200px;
+	clear: both;
 }
 
 @media (min-width: 480px){
@@ -121,6 +144,8 @@ footer{
 		width: 50%;
 		float: right;
 		margin-left: 10px;
+		clear: both;
+		padding-top: 40px;
 	}
 
 	.summary ul li{
@@ -128,4 +153,60 @@ footer{
 		width: 45%;
 		padding-left: 10px;
 	}
+}
+
+@media (min-width: 640px){
+
+	header{
+		width: 100%;
+		text-align: left;
+	}
+	
+	header h1{
+	
+	}
+
+	header h2{
+		text-align: right;
+
+
+	}
+
+	.contact{
+		text-align: right;
+	}
+
+	.contact p{
+		display: inline;
+		padding-left: 10px;
+	}
+}
+
+@media (min-width: 768px){
+
+	header{
+		padding-bottom: 0;
+	}
+
+	main{
+		width: 50%;
+		float: left;
+		margin-top: 0;
+		
+	}
+
+	.portrait{
+		width: 45%;
+		padding-top: 80px;
+		
+	}
+	aside{
+		width: 45%;
+		float: right;
+	}
+
+	footer{
+		padding-top: 100px;
+	}
+
 }

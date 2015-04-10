@@ -3,14 +3,36 @@ html{
 	background: url(img/bg.jpg);
 }
 
-body{
-	background: #FFFFFF;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:300;
-	padding: 20px;
+body{	
 	max-width: 960px;
 	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+}
+
+#intro{
+	margin: 0 auto;
+	max-width: 960px;
+	text-align: center;
+}
+
+.button{
+	background-color: #000000;
+	padding: 0 10px ;
+	border:2px solid #FFFFFF;
+	color: #FFFFFF;
+	max-width: 100px;
+	display: inline-block;
+	font-family: 'Clicker Script', cursive;
+	margin-top: 30px;
+}
+
+#container{
+	background: #FFFFFF;
+	padding: 20px;	
 	font-size: 15px;
+	margin-top: 50px;
+	border: 5px solid #CCCCCC;
 }
 
 img{

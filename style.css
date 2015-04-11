@@ -17,28 +17,41 @@ body{
 }
 
 .button{
-	background-color: #000000;
-	padding: 0 10px ;
-	border:2px solid #FFFFFF;
-	color: #FFFFFF;
-	max-width: 100px;
-	display: inline-block;
-	font-family: 'Clicker Script', cursive;
-	margin-top: 30px;
+	padding-top: 50px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    padding: 10px 5px;
+    font-family: 'Clicker Script', cursive;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #FFF;
+    color: #828282;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #FFF;
+    background-image: linear-gradient(to bottom, #EBEBEB, #DEDEDE);
+    background-repeat: repeat-x;
+    transition: bottom 150ms linear 0s;
+    border:5px solid #CCC;
+    border-radius: 5px;
 }
 
 #container{
 	background: #FFFFFF;
 	padding: 20px;	
 	font-size: 15px;
-	margin-top: 50px;
+	margin-top: 100px;
 	border: 5px solid #CCCCCC;
+	border-radius: 5px;
 }
 
 img{
 	width: 90%;
 	border: 1px solid #000000;
 	padding: 10px;
+	border-radius: 5px;
 }
 
 h1 {
@@ -50,6 +63,7 @@ h2{
 	font-size: 1em;
 	color: #FFFFFF;
 	padding: 5px 10px;
+	border-radius: 5px;
 }
 
 h3{
@@ -120,6 +134,7 @@ a:hover{
 	color: #FFFFFF;
 	padding: 10px 20px;
 	margin-top: 50px;
+	border-radius: 5px;
 }
 
 .education span{
@@ -144,6 +159,7 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
   clear: right;
+  border-radius: 5px;
 }
 
 .author{
@@ -158,6 +174,28 @@ footer{
 	text-align: center;
 	margin-top: 200px;
 	clear: both;
+}
+
+#scrollUp {
+    bottom: -10px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    padding: 10px 5px;
+    font-family: 'Clicker Script', cursive;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #FFF;
+    color: #828282;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #FFF;
+    background-image: linear-gradient(to bottom, #EBEBEB, #DEDEDE);
+    background-repeat: repeat-x;
+    transition: bottom 150ms linear 0s;
+    border:5px solid #CCC;
+    border-radius: 5px;
 }
 
 @media (min-width: 480px){

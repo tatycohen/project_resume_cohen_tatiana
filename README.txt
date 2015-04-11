@@ -1,4 +1,6 @@
-URL: http://tatianacohen.com/resume/
+URL: 
+http://tatianacohen.com/resume/
+https://github.com/tatycohen/project_resume_cohen_tatiana
 
 Plugins:
 https://github.com/heelhook/chardin.js
